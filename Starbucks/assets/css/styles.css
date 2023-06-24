@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300;400;600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Syne+Tactile&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.container{
+    margin: auto;
+    max-width: 1400px;
+}
+
+.containerArea{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100px;
+}
+
+.containerArea-left img{
+    height: 64px;
+    width: 64px;
+}
+
+.containerArea-Right{
+    display: flex;
+    align-items: center;
+}
+
+
+.containerArea-Right form{
+    display: flex;
+}
+
+.containerArea-Right button{
+    border: 0;
+    background: transparent ;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.containerArea-Right img{
+    height: 16px;
+    width: 16px;
+   
+}
+
+.containerArea-Right input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #999;
+    outline: 0;
+    width: 100%;
+    max-width: 220px;
+}
+.containerArea-Right .menu{
+    align-items: center;
+    margin-left: 50px;
+}
+
+.containerArea-Right .menu img{
+   
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+
+}
+
+.banner {
+   
+    background-image: url('../../assets/imgs/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    line-height: 100px;
+    padding-top: 75px;
+    padding-bottom: 120px;
+    margin: 0;
+
+    
+}
+
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 100px;
+    margin: 0;
+}
+
+
+
+
+.banner-images img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #117050;
+    margin-right: 30px;
+}

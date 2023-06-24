@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/* repita 3x uma coluna de tamnho 1fr*/
+    grid-column-gap: 10px; /*espaçamento entre colunas*/
+    grid-row-gap: 10px; /*espaçamento entre linhas*/
+    grid-auto-rows: minmax(50px, auto);
+    /*grid-template-columns: 100px 100px = duas colunas com 100px cada e assim sucessivamente*/
+}
+
+.grid{
+    background-color: rgb(255, 8, 0);
+    margin: 10px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+}
+
+/*A brincadeira começa agora : START E END DEFINEM O POSICIONAMENTO DE UM ITEM EM UMA GRID*/
+
+.item5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: blue;
+}
+
+.item4{
+    grid-column-start: 1;
+    grid-column-end:2;
+
+    grid-row-start: 2;
+    grid-row-end:4;
+
+    background-color: green;
+
+}
